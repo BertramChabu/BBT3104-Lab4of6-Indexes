@@ -22,3 +22,5 @@ EXPLAIN SELECT * FROM customers WHERE postalCode BETWEEN '100' AND '2000' ORDER 
 |  1 | SIMPLE      | customers | NULL       | ALL  | idx_postalcode_desc | NULL | NULL    | NULL |   14 |   100.00 | Using where; Using filesort |
 +----+-------------+-----------+------------+------+---------------------+------+---------+------+------+----------+-----------------------------+
 1 row in set, 1 warning (0.00 sec)
+
+-- done
