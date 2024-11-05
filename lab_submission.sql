@@ -24,3 +24,4 @@ EXPLAIN SELECT * FROM customers WHERE postalCode BETWEEN '100' AND '2000' ORDER 
 1 row in set, 1 warning (0.00 sec)
 
 -- done
+-- complete
